@@ -7,4 +7,5 @@ using Aqua
         Aqua.test_all(DecemberFun)
     end
     # Write your tests here.
+    @test DecemberFun.hello() == "Hello, World!"
 end
